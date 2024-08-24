@@ -1,4 +1,4 @@
-public class Main {
+public class HelloJava {
     public static void main(String[] args) {
         System.out.println("Hello Ironhack!");
         System.out.println("Welcome to the Java Bootcamp");
@@ -68,6 +68,13 @@ public class Main {
                 + pizzaDeliveryMan + " and if you ask if it's gluten free we say: " + isPizzaGlutenFree);
 
 
+        System.out.println("Integer MAX number stored is: " + Integer.MAX_VALUE);
+        System.out.println("Integer MIN number stored is: " + Integer.MIN_VALUE);
+        System.out.println("Long MAX number stored is: " + Long.MAX_VALUE);
+        System.out.println("Long MIN number stored is: " + Long.MIN_VALUE);
+        System.out.println("Short MAX number stored is: " + Short.MAX_VALUE);
+        System.out.println("Short MIN number stored is: " + Short.MIN_VALUE);
+//        short s = 2;
 
     }
 }
